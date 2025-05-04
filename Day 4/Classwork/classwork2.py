@@ -1,0 +1,6 @@
+users_name = input()
+users_lastname = input()
+users_age = input()
+print( users_name ) 
+print( users_lastname ) 
+print( users_age )
