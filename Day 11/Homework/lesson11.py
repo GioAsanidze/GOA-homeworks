@@ -18,7 +18,7 @@ num_1 = int(input())
 num_2 = int(input())
 if num_1 > 0 and num_2 > 0:
     print("Both numbers are positive")
-elif num_1 > 0 and num_2 < 0 or num_1 < 0 and num_2 > 0:
+elif num_1 > 0 and num_2 <= 0 or num_1 <= 0 and num_2 > 0:
     print("Only one is positive")
 else:
     print("None is positive")
